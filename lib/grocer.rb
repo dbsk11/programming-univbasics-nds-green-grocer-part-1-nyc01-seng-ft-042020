@@ -2,7 +2,8 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   collection.detect do |grocery_item|
-    name = collection[:item]
+    if collection[:item] = name
+      return [:item]
   end
 end
 

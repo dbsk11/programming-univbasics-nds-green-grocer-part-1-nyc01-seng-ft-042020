@@ -1,12 +1,11 @@
 require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
-  collection.each do |grocery_item, data|
-    if name == collection[:item]
-      return grocery_item
-    end
+  collection.detect do |grocery_item|
+    name = collection[:item]
   end
 end
+
 
 
 

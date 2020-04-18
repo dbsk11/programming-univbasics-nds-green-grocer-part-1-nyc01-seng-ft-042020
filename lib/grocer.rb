@@ -1,7 +1,14 @@
+require 'pry'
+
 def find_item_by_name_in_collection(name, collection)
   collection.each do |grocery_item, data|
+    binding.pry
     if grocery_item == :item
-      
+    end
+  end
+end
+
+
 
   # Implement me first!
   #

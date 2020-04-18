@@ -7,6 +7,7 @@ def find_item_by_name_in_collection(name, collection)
     if collection = name
       return collection[0]
     end
+    binding.pry
   end
 end
 

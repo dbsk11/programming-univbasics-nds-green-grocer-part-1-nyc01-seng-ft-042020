@@ -4,6 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.detect do |grocery_item|
     if collection[:item] = name
       return [:item]
+    end
   end
 end
 

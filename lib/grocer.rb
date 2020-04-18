@@ -1,11 +1,7 @@
 def find_item_by_name_in_collection(name, collection)
-  index = 0
-  while index <= collection.length do
-    if collection[item] = name
-      return collection[item]
-    end
-  end
-end
+  collection.each do |grocery_item, data|
+    if grocery_item == :item
+      
 
   # Implement me first!
   #

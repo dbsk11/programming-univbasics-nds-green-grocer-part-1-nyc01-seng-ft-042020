@@ -1,6 +1,7 @@
 def find_item_by_name_in_collection(name, collection)
-  collection = 0
-  while collection = 
+  index = 0
+  while index <= collection
+    
   # Implement me first!
   #
   # Consult README for inputs and outputs
